@@ -106,6 +106,6 @@ name_y = int(y_top + ((y_bottom - y_top - name_h) / 2))
 draw.text((name_x, name_y), name, inky_display.BLACK, font=intuitive_font)
 
 # Display the completed name badge
-img =  img.transpose(Image.Transponse.FLIP_TOP_BOTTOM)
+img =  img.transpose(Image.Transpose.FLIP_TOP_BOTTOM)
 inky_display.set_image(img)
 inky_display.show()
